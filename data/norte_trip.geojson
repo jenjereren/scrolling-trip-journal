@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "NO_": 1, "title": "River Cruise", "photo": "north\/rivercruise.jpg", "description": "100 pesos ang adult fee para sa river cruise. 50 pesos kapag bata at estudyante. Mga 30 minutes to one hour yung buong cruise. May ipe-play na audio ng kasaysayan ng Vigan tapos sakto dun sa madadaanang stops na may mga statue sa gilid ng ilog" }, "geometry": { "type": "Point", "coordinates": [ 120.386870, 17.559284 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 2, "NO_": 2, "title": "Calle Crisologo", "photo": "north\/callecrisologo.jpg", "description": "malaking part ng street ang preserved pa yung cobble stones na madadaanan. pwedeng mag-rent ng mga kalesa for 150 pesos per hour. may mga antique at souvenir shops sa calle na ito." }, "geometry": { "type": "Point", "coordinates": [ 120.388874, 17.571588 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 3, "NO_": 3, "title": "Paoay Church", "photo": "north\/paoaychurch.jpg", "description": "One of the old baroque style churches in the Philippines" }, "geometry": { "type": "Point", "coordinates": [ 120.521035,  18.061710 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 4, "NO_": 4, "title": "Cape Bojeador", "photo": "north\/capebojeador2.jpg", "description": "lighthouse chuchubels ... lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum" }, "geometry": { "type": "Point", "coordinates": [ 120.597744,  18.512109 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 5, "NO_": 5, "title": "Bangui Windmills", "photo": "north\/banguiwindmills.jpg", "description": "wind power!" }, "geometry": { "type": "Point", "coordinates": [ 120.701924,  18.528723 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 6, "NO_": 6, "title": "Maira-ira Beach", "photo": "north\/mairairabeach.jpg", "description": "also known as blue lagoon. maraming activities na pwedeng gawin dito like zipline, banana boat, beach volleyball, etc." }, "geometry": { "type": "Point", "coordinates": [ 120.858577,   18.623742 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 7, "NO_": 7, "title": "Timmangtang Rock", "photo": "north\/timmangtangrock.jpg", "description": "may rock lang na sinlaki ng bahay sa coast/gilid ng road." }, "geometry": { "type": "Point", "coordinates": [ 120.870543,  18.608466 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 8, "NO_": 8, "title": "Shipwreck along the Pan-Philippine Highway", "photo": "north\/shipwreck.jpg", "description": "see older pic. need to confirm if it is the same shipwreck. may shock factor guys" }, "geometry": { "type": "Point", "coordinates": [ 120.888300,  18.589508 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 9, "NO_": 9, "title": "Patapat Viaduct", "photo": "north\/patapat2.jpg", "description": "bridge sa gilid ng daan kasi wala nang mapaglagyan ng daan! k!" }, "geometry": { "type": "Point", "coordinates": [ 120.897259,  18.572331 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 10, "NO_": 10, "title": "Taggat Lagoon", "photo": "north\/taggatbeach.jpg", "description": "may hinuli silang malaking isda. community chorvalu ang sayaaa" }, "geometry": { "type": "Point", "coordinates": [ 121.048267,  18.611908 ] } },
+
+{ "type": "Feature", "properties": { "OBJECTID": 11, "NO_": 11, "title": "Sentinela Cove", "photo": "north\/sentinelacove.jpg", "description": "cove na masarap tambayan! very clean! may part na super tago na maliit na cove. fine sand. " }, "geometry": { "type": "Point", "coordinates": [ 121.096831,  18.623905 ] } }
+]
+}

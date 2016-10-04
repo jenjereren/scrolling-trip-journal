@@ -1,0 +1,85 @@
+html, body, #map {
+	height: 600px;
+	font-family: "Avenir LT W01 35 Light", "Century Gothic", "Meiryo", Helvetica, Arial, sans-serif;
+}
+p.photo-text {
+	font-size: 10pt;
+}
+#title {
+	position: absolute;
+	z-index: 999;
+	top: 15px;
+	left: 45px;
+	color: #fff;
+}
+#bg {
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	margin: 8px;
+	color: #fff;
+	background: rgba(0,0,0, 0.7); /* to apply opacity background only. */
+}
+@media (max-width: 400px) {
+	#map {
+		height: 300px;
+		width: 400px;
+		right: 0;
+	}
+	#bg {
+		height: 300px;
+		width: 250px;
+	}
+	#photos {
+		margin-top: 70px;
+		height: 230px;
+	}
+	.photo-container {
+		height: 140%;
+	}
+}
+@media (min-width: 400px) {
+	#map {
+		height: 600px;
+	}
+	#bg {
+		height: 600px;
+		width: 450px;
+	}
+	#photos {
+		margin-top: 70px;
+		height: 530px;
+	}
+	.photo-container {
+		/*height: 90%;*/
+	}
+}
+#photos {
+	width: 100%;
+	overflow-y: scroll;
+}
+.photo-container {
+	margin: 50px 0 0 0;
+	text-align: center;
+	opacity: 0.3;
+}
+.photo-text {
+	margin: 20px;
+}
+
+/* CSS3 Transition for sizing svg icon and fade a photo container */
+div.svg-icon > svg > path {
+	transition-property: stroke, stroke-width;
+	transition-duration: 1s;
+}
+.photo-container {
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+/* Marker offset */
+.mizube-svg {
+	margin-top: -12px;
+	margin-left: -12px;
+}
