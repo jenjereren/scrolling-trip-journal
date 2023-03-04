@@ -42,6 +42,7 @@ p.photo-text {
 @media (min-width: 400px) {
 	#map {
 		height: 600px;
+		margin-left: 450px;
 	}
 	#bg {
 		height: 600px;
